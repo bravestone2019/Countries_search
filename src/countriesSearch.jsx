@@ -77,7 +77,7 @@ function CountryList() {
                 alt={`${country.name.common} flag`} 
                 style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
               />
-              <h3 style={{ marginTop: '10px' }}>{country.name.common}</h3>
+              <h2 style={{ marginTop: '10px' }}>{country.name.common}</h2>
             </div>
           ))
         ) : (
